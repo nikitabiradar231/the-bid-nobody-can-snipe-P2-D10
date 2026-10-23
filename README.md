@@ -13,7 +13,7 @@
 **The Bid Nobody Can Snipe: BlindBid Sealed Auction**  
 *Problem Slug:* `blindbid-sealed-auction`  
 *Event:* `road-to-devcon-x` (Loops House Road to Devcon X P2 Challenge)  
-*Target Repository:* `https://github.com/nikitabiradar231/blindbid-sealed-auction`
+*Target Repository:* `https://github.com/nikitabiradar231/the-bid-nobody-can-snipe-P2-D10`
 
 ---
 
@@ -143,8 +143,8 @@ To prevent Denial-of-Service attacks and gas-limit exhaustion, payments are **ne
 
 ```bash
 # Clone the repository
-git clone https://github.com/nikitabiradar231/blindbid-sealed-auction.git
-cd blindbid-sealed-auction
+git clone --recurse-submodules https://github.com/nikitabiradar231/the-bid-nobody-can-snipe-P2-D10.git
+cd the-bid-nobody-can-snipe-P2-D10
 
 # Install submodules & dependencies
 forge install OpenZeppelin/openzeppelin-contracts --no-commit
